@@ -6,7 +6,7 @@ const studentsSchema = mongoose.Schema(
         firstname : String,
         lastname : String,
         email : String,
-        dob : String
+        dob : Date
     }
 )
 export default mongoose.model('StudentsDatabase', studentsSchema)
